@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Agro Platform - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9f7f0; /* Soft green background */
+            color: #333;
+        }
+
+        /* Header / Title Section */
+        .features-header {
+            text-align: center;
+            padding: 50px 20px 30px;
+            background-color: #e9f7f0;
+        }
+
+        .features-header h1 {
+            font-size: 3em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .features-header h1::after {
+            content: '';
+            display: block;
+            width: 60%;
+            height: 4px;
+            background-color: #4CAF50;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        /* Features Grid Container */
+        .features-grid-container {
+            max-width: 1200px;
+            margin: 0 auto 50px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            justify-content: center;
+        }
+
+        /* Individual Feature Card Styling */
+        .feature-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card .icon {
+            font-size: 3.5em;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h2 {
+            font-size: 1.6em;
+            color: #2c3e50;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .feature-card p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .features-header h1 {
+                font-size: 2.5em;
+            }
+
+            .features-grid-container {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+
+            .feature-card {
+                padding: 25px;
+            }
+
+            .feature-card .icon {
+                font-size: 3em;
+            }
+
+            .feature-card h2 {
+                font-size: 1.4em;
+            }
+
+            .feature-card p {
+                font-size: 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .features-header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="features-header">
+        <h1>Key Features</h1>
+    </div>
+
+    <div class="features-grid-container">
+        <a href="/recommend" target="_blank" class="feature-card">
+            <div class="icon">
+                <i class="fas fa-chart-line"></i> </div>
+            <h2>Market Demand</h2>
+            <p>Get real-time insights into market prices and demand forecasts to optimize your crop choices and selling strategies.</p>
+        </a>
+
+        <a href="/rotate" target="_blank" class="feature-card">
+            <div class="icon">
+                <i class="fas fa-leaf"></i> </div>
+            <h2>Crop Rotation</h2>
+            <p>Improve soil health and enhance nutrient balance with data-driven crop rotation suggestions.</p>
+        </a>
+
+        <a href="/predict_pest" target="_blank" class="feature-card">
+            <div class="icon">
+                <i class="fas fa-bug"></i> </div>
+            <h2>Pest & Disease Prediction</h2>
+            <p>Predict potential pest and disease risks based on environmental data and historical patterns for timely intervention.</p>
+        </a>
+
+        <a href="/geo_tagging" target="_blank" class="feature-card">
+            <div class="icon">
+                <i class="fas fa-map-marker-alt"></i> </div>
+            <h2>Geo Tagging</h2>
+            <p>Accurately tag your field locations to analyze area-specific data for precise agricultural planning.</p>
+        </a>
+
+        <a href="/feedback" target="_blank" class="feature-card">
+            <div class="icon">
+                <i class="fas fa-comments"></i> </div>
+            <h2>Feedback & Support</h2>
+            <p>Easily provide feedback and receive prompt support to enhance your platform experience.</p>
+        </a>
+    </div>
+</body>
+</html>

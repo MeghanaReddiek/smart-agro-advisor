@@ -1,0 +1,11 @@
+Farmer_ID,District,Season,Nearest_Market,Soil_Type,Preferred_Crop,Market_Trend
+F001,Anantapur,Summer,Hindupur Mandi,Sandy Loam,Groundnut,Increasing
+F002,Guntur,Winter,Guntur Market,Black Soil,Cotton,Stable
+F003,Nizamabad,Summer,Nizamabad Yard,Clay Loam,Maize,Decreasing
+F004,Krishna,Winter,Machilipatnam Yard,Alluvial,Paddy,Stable
+F005,Nellore,Spring,Nellore Market,Sandy Soil,Sunflower,Increasing
+F006,Karimnagar,Summer,Karimnagar Market,Red Soil,Soybean,Decreasing
+F007,Vizianagaram,Winter,Vizianagaram Mandi,Loamy Soil,Bengal Gram,Increasing
+F008,Chittoor,Summer,Chittoor Market,Red Sandy,Tomato,Decreasing
+F009,Warangal,Spring,Enumamula Yard,Black Clay,Chillies,Increasing
+F010,Kurnool,Winter,Kurnool Market,Loam Soil,Onion,Stable
